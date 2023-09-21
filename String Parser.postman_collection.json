@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "3eb970ca-dc8f-4558-aa48-dd8e9aba1aee",
+		"name": "String Parser",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "25312518"
+	},
+	"item": [
+		{
+			"name": "Parse",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "data",
+							"value": "aaaaabcccc",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8090/api/parse",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8090",
+					"path": [
+						"api",
+						"parse"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
